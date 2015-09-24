@@ -16,6 +16,12 @@ class Obstacle: CCNode {
     let minimumYPosition:CGFloat = 200
     let maximumYPosition:CGFloat = 380
     
+    func didLoadFromCCB() {
+        _topPipe.physicsBody.sensor = true
+        _bottomPipe.physicsBody.sensor = true
+    }
+    
+    
     func setupRandomPosition() {
         
         // calculate the end of the range of top pipe
