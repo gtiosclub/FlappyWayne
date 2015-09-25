@@ -97,13 +97,13 @@ class MainScene: GamePlayScene {
     }
     
     func restart() {
-        var scene = CCBReader.loadAsScene("MainScene")
+        let scene = CCBReader.loadAsScene("MainScene")
         CCDirector.sharedDirector().replaceScene(scene)
     }
     
     func ccPhysicsCollisionBegin(pair: CCPhysicsCollisionPair!, hero: CCNode!, goal: CCNode!) -> Bool {
-        hero.color = CCColor.redColor()
-        goal.removeFromParent()
+        goal?.physicsBody.collisionType = ""
+        goal?.removeFromParent()
         score++
         _scoreLabel.string = "\(score)"
         return true

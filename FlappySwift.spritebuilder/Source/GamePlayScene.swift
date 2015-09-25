@@ -53,11 +53,11 @@ class GamePlayScene : CCNode, CCPhysicsCollisionDelegate {
             }
             
             // clamp angular velocity
-            hero?.rotation = clampf(hero!.rotation, -30, 90)
-            if (hero?.physicsBody.allowsRotation != nil) {
-                let angularVelocity = clampf(Float(hero!.physicsBody.angularVelocity), -2, 1)
-                hero!.physicsBody.angularVelocity = CGFloat(angularVelocity)
-            }
+//            hero?.rotation = clampf(hero!.rotation, -30, 90)
+//            if (hero?.physicsBody.allowsRotation != nil) {
+//                let angularVelocity = clampf(Float(hero!.physicsBody.angularVelocity), -2, 1)
+//                hero!.physicsBody.angularVelocity = CGFloat(angularVelocity)
+//            }
             // loop the ground whenever a ground image was moved entirely outside the screen
             for ground in grounds {
                 // get the world position of the ground

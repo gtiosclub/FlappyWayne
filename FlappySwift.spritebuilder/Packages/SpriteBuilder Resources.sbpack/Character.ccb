@@ -35,148 +35,6 @@
 	<false/>
 	<key>nodeGraph</key>
 	<dict>
-		<key>animatedProperties</key>
-		<dict>
-			<key>0</key>
-			<dict>
-				<key>spriteFrame</key>
-				<dict>
-					<key>keyframes</key>
-					<array>
-						<dict>
-							<key>easing</key>
-							<dict>
-								<key>type</key>
-								<integer>0</integer>
-							</dict>
-							<key>name</key>
-							<string>spriteFrame</string>
-							<key>time</key>
-							<real>0.0</real>
-							<key>type</key>
-							<integer>7</integer>
-							<key>value</key>
-							<array>
-								<string>FlappyBirdArtPack/fly1.png</string>
-								<string>Use regular file</string>
-							</array>
-						</dict>
-						<dict>
-							<key>easing</key>
-							<dict>
-								<key>type</key>
-								<integer>0</integer>
-							</dict>
-							<key>name</key>
-							<string>spriteFrame</string>
-							<key>time</key>
-							<real>0.1666666716337204</real>
-							<key>type</key>
-							<integer>7</integer>
-							<key>value</key>
-							<array>
-								<string>FlappyBirdArtPack/fly2.png</string>
-								<string>Use regular file</string>
-							</array>
-						</dict>
-						<dict>
-							<key>easing</key>
-							<dict>
-								<key>type</key>
-								<integer>0</integer>
-							</dict>
-							<key>name</key>
-							<string>spriteFrame</string>
-							<key>time</key>
-							<real>0.3333333432674408</real>
-							<key>type</key>
-							<integer>7</integer>
-							<key>value</key>
-							<array>
-								<string>FlappyBirdArtPack/fly1.png</string>
-								<string>Use regular file</string>
-							</array>
-						</dict>
-						<dict>
-							<key>easing</key>
-							<dict>
-								<key>type</key>
-								<integer>0</integer>
-							</dict>
-							<key>name</key>
-							<string>spriteFrame</string>
-							<key>time</key>
-							<real>0.5</real>
-							<key>type</key>
-							<integer>7</integer>
-							<key>value</key>
-							<array>
-								<string>FlappyBirdArtPack/fly2.png</string>
-								<string>Use regular file</string>
-							</array>
-						</dict>
-						<dict>
-							<key>easing</key>
-							<dict>
-								<key>type</key>
-								<integer>0</integer>
-							</dict>
-							<key>name</key>
-							<string>spriteFrame</string>
-							<key>time</key>
-							<real>0.66666668653488159</real>
-							<key>type</key>
-							<integer>7</integer>
-							<key>value</key>
-							<array>
-								<string>FlappyBirdArtPack/fly1.png</string>
-								<string>Use regular file</string>
-							</array>
-						</dict>
-						<dict>
-							<key>easing</key>
-							<dict>
-								<key>type</key>
-								<integer>0</integer>
-							</dict>
-							<key>name</key>
-							<string>spriteFrame</string>
-							<key>time</key>
-							<real>0.83333331346511841</real>
-							<key>type</key>
-							<integer>7</integer>
-							<key>value</key>
-							<array>
-								<string>FlappyBirdArtPack/fly2.png</string>
-								<string>Use regular file</string>
-							</array>
-						</dict>
-						<dict>
-							<key>easing</key>
-							<dict>
-								<key>type</key>
-								<integer>0</integer>
-							</dict>
-							<key>name</key>
-							<string>spriteFrame</string>
-							<key>time</key>
-							<real>1</real>
-							<key>type</key>
-							<integer>7</integer>
-							<key>value</key>
-							<array>
-								<string>FlappyBirdArtPack/fly1.png</string>
-								<string>Use regular file</string>
-							</array>
-						</dict>
-					</array>
-					<key>name</key>
-					<string>spriteFrame</string>
-					<key>type</key>
-					<integer>7</integer>
-				</dict>
-			</dict>
-		</dict>
 		<key>baseClass</key>
 		<string>CCSprite</string>
 		<key>children</key>
@@ -196,7 +54,7 @@
 			<key>allowsRotation</key>
 			<true/>
 			<key>bodyShape</key>
-			<integer>1</integer>
+			<integer>0</integer>
 			<key>collisionCategories</key>
 			<array/>
 			<key>collisionMask</key>
@@ -204,7 +62,7 @@
 			<key>collisionType</key>
 			<string>hero</string>
 			<key>cornerRadius</key>
-			<real>15</real>
+			<real>0.0</real>
 			<key>density</key>
 			<real>1</real>
 			<key>dynamic</key>
@@ -216,12 +74,247 @@
 			<key>points</key>
 			<array>
 				<array>
-					<real>17</real>
-					<real>12</real>
+					<real>39.429718017578125</real>
+					<real>2.9843826293945312</real>
+				</array>
+				<array>
+					<real>14.50390625</real>
+					<real>12.921882629394531</real>
+				</array>
+				<array>
+					<real>38.777374267578125</real>
+					<real>114.66407775878906</real>
+				</array>
+				<array>
+					<real>40.359405517578125</real>
+					<real>150.41018676757812</real>
+				</array>
+				<array>
+					<real>11.26171875</real>
+					<real>142.76954650878906</real>
+				</array>
+				<array>
+					<real>0.7578125</real>
+					<real>170.90628051757812</real>
+				</array>
+				<array>
+					<real>8.35546875</real>
+					<real>262.57424926757812</real>
+				</array>
+				<array>
+					<real>28.55859375</real>
+					<real>287.11331176757812</real>
+				</array>
+				<array>
+					<real>38.714874267578125</real>
+					<real>336.91409301757812</real>
+				</array>
+				<array>
+					<real>53.960968017578125</real>
+					<real>385.89849853515625</real>
+				</array>
+				<array>
+					<real>84.792999267578125</real>
+					<real>401.26568603515625</real>
+				</array>
+				<array>
+					<real>122.91018676757812</real>
+					<real>390.41412353515625</real>
+				</array>
+				<array>
+					<real>134.33206176757812</real>
+					<real>354.37115478515625</real>
+				</array>
+				<array>
+					<real>138.45706176757812</real>
+					<real>335.00003051757812</real>
+				</array>
+				<array>
+					<real>150.00784301757812</real>
+					<real>292.57815551757812</real>
+				</array>
+				<array>
+					<real>187.5234375</real>
+					<real>265.96487426757812</real>
+				</array>
+				<array>
+					<real>202.7265625</real>
+					<real>119.92579650878906</real>
+				</array>
+				<array>
+					<real>183.69140625</real>
+					<real>65.722671508789062</real>
+				</array>
+				<array>
+					<real>194.4296875</real>
+					<real>53.660171508789062</real>
+				</array>
+				<array>
+					<real>184.2578125</real>
+					<real>32.679695129394531</real>
+				</array>
+				<array>
+					<real>184.05078125</real>
+					<real>14.320320129394531</real>
+				</array>
+				<array>
+					<real>179.703125</real>
+					<real>1.8476638793945312</real>
 				</array>
 			</array>
 			<key>polygons</key>
-			<array/>
+			<array>
+				<array>
+					<array>
+						<real>184.2578125</real>
+						<real>32.679695129394531</real>
+					</array>
+					<array>
+						<real>194.4296875</real>
+						<real>53.660171508789062</real>
+					</array>
+					<array>
+						<real>183.69140625</real>
+						<real>65.722671508789062</real>
+					</array>
+				</array>
+				<array>
+					<array>
+						<real>38.777374267578125</real>
+						<real>114.66407775878906</real>
+					</array>
+					<array>
+						<real>14.50390625</real>
+						<real>12.921882629394531</real>
+					</array>
+					<array>
+						<real>39.429718017578125</real>
+						<real>2.9843826293945312</real>
+					</array>
+					<array>
+						<real>179.703125</real>
+						<real>1.8476638793945312</real>
+					</array>
+					<array>
+						<real>184.05078125</real>
+						<real>14.320320129394531</real>
+					</array>
+					<array>
+						<real>184.2578125</real>
+						<real>32.679695129394531</real>
+					</array>
+					<array>
+						<real>183.69140625</real>
+						<real>65.722671508789062</real>
+					</array>
+				</array>
+				<array>
+					<array>
+						<real>138.45706176757812</real>
+						<real>335.00003051757812</real>
+					</array>
+					<array>
+						<real>134.33206176757812</real>
+						<real>354.37115478515625</real>
+					</array>
+					<array>
+						<real>122.91018676757812</real>
+						<real>390.41412353515625</real>
+					</array>
+				</array>
+				<array>
+					<array>
+						<real>122.91018676757812</real>
+						<real>390.41412353515625</real>
+					</array>
+					<array>
+						<real>84.792999267578125</real>
+						<real>401.26568603515625</real>
+					</array>
+					<array>
+						<real>53.960968017578125</real>
+						<real>385.89849853515625</real>
+					</array>
+					<array>
+						<real>38.714874267578125</real>
+						<real>336.91409301757812</real>
+					</array>
+					<array>
+						<real>150.00784301757812</real>
+						<real>292.57815551757812</real>
+					</array>
+					<array>
+						<real>138.45706176757812</real>
+						<real>335.00003051757812</real>
+					</array>
+				</array>
+				<array>
+					<array>
+						<real>150.00784301757812</real>
+						<real>292.57815551757812</real>
+					</array>
+					<array>
+						<real>38.714874267578125</real>
+						<real>336.91409301757812</real>
+					</array>
+					<array>
+						<real>28.55859375</real>
+						<real>287.11331176757812</real>
+					</array>
+				</array>
+				<array>
+					<array>
+						<real>150.00784301757812</real>
+						<real>292.57815551757812</real>
+					</array>
+					<array>
+						<real>28.55859375</real>
+						<real>287.11331176757812</real>
+					</array>
+					<array>
+						<real>8.35546875</real>
+						<real>262.57424926757812</real>
+					</array>
+					<array>
+						<real>0.7578125</real>
+						<real>170.90628051757812</real>
+					</array>
+					<array>
+						<real>11.26171875</real>
+						<real>142.76954650878906</real>
+					</array>
+					<array>
+						<real>40.359405517578125</real>
+						<real>150.41018676757812</real>
+					</array>
+				</array>
+				<array>
+					<array>
+						<real>40.359405517578125</real>
+						<real>150.41018676757812</real>
+					</array>
+					<array>
+						<real>38.777374267578125</real>
+						<real>114.66407775878906</real>
+					</array>
+					<array>
+						<real>183.69140625</real>
+						<real>65.722671508789062</real>
+					</array>
+					<array>
+						<real>202.7265625</real>
+						<real>119.92579650878906</real>
+					</array>
+					<array>
+						<real>187.5234375</real>
+						<real>265.96487426757812</real>
+					</array>
+					<array>
+						<real>150.00784301757812</real>
+						<real>292.57815551757812</real>
+					</array>
+				</array>
+			</array>
 		</dict>
 		<key>properties</key>
 		<array>
@@ -272,11 +365,6 @@
 				</array>
 			</dict>
 			<dict>
-				<key>baseValue</key>
-				<array>
-					<string>FlappyBirdArtPack/fly1.png</string>
-					<string>Use regular file</string>
-				</array>
 				<key>name</key>
 				<string>spriteFrame</string>
 				<key>type</key>
@@ -284,7 +372,7 @@
 				<key>value</key>
 				<array>
 					<string></string>
-					<string>FlappyBirdArtPack/fly2.png</string>
+					<string>FlappyBirdArtPack/LEEL WAINE.png</string>
 				</array>
 			</dict>
 			<dict>
@@ -321,8 +409,6 @@
 			</dict>
 		</array>
 		<key>selected</key>
-		<true/>
-		<key>seqExpanded</key>
 		<true/>
 	</dict>
 	<key>notes</key>
@@ -371,19 +457,19 @@
 				<integer>12</integer>
 			</dict>
 			<key>chainedSequenceId</key>
-			<integer>0</integer>
+			<integer>-1</integer>
 			<key>length</key>
-			<real>1</real>
+			<real>10</real>
 			<key>name</key>
 			<string>Default Timeline</string>
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>0.10000000149011612</real>
+			<real>0.0</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>
-			<real>282.84552001953125</real>
+			<real>128</real>
 			<key>sequenceId</key>
 			<integer>0</integer>
 			<key>soundChannel</key>

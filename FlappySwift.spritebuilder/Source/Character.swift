@@ -11,10 +11,11 @@ import UIKit
 class Character: CCSprite {
     func didLoadFromCCB() {
         self.position = CGPoint(x: 115, y: 250)
+        self.scale = 0.19
     }
     
     func flap() {
-        self.physicsBody.applyImpulse(ccp(0, 700))
-        self.physicsBody.applyAngularImpulse(5000)
+        self.physicsBody.applyImpulse(ccp(0, 30000))
+//        self.physicsBody.applyAngularImpulse(5000)
     }
 }
